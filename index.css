@@ -9,7 +9,7 @@
   background-image: url("./imagenes/fondo_prov.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
 }
 
@@ -29,6 +29,11 @@ h1 {
 p {
   font-size: 1.3rem;
   padding: 0 10% 20px;
+}
+
+.mov {
+  color: white;
+  display: none;
 }
 
 /* Estilos del FAB */
@@ -55,5 +60,8 @@ p {
 @media (min-width: 600px) {
   .cont_fab {
     display: none;
+  }
+  .mov {
+    display: block;
   }
 }
